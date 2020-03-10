@@ -4,7 +4,17 @@ class Car {
  
     Integer id;
     String license;
-    String driver;
+    Account driver;
     Integer passegender;
 
+    public Car(String license,Account driver){
+
+        this.license = license;
+        this.driver = driver;
+    
+    }
+
+
+
 }
+
